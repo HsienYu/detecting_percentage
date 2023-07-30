@@ -4,11 +4,11 @@ const ProgressBar = (props) => {
   const { bgcolor, completed } = props;
 
   const containerStyles = {
-    height: 10,
+    height: "100%",
     width: "100%",
-    backgroundColor: "#e0e0de",
-    borderRadius: 50,
-    margin: 0
+    backgroundColor: "rgb(255, 108, 0)",
+    borderRadius: 0,
+    margin: 0,
   };
 
   const fillerStyles = {
@@ -21,9 +21,9 @@ const ProgressBar = (props) => {
   };
 
   const labelStyles = {
-    padding: 5,
+    padding: 15,
     color: "white",
-    fontWeight: "bold"
+    fontWeight: "bold",
   };
 
   return (

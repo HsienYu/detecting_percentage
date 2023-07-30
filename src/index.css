@@ -19,45 +19,88 @@ h1{
   color: bisque;
   /* Center vertically and horizontally */
   position: relative;
-  left: 0%;
-  top: 50%;
-  /* margin: -25px 0 0 -25px; */
   text-align: center;
   font-size: small;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 
 }
 
-.container {
-  font-family: arial;
-  font-size: 24px;
-  /* margin: 25px; */
-  width: 100%;
-  height: 100%;
-  /* Setup */
-  position: relative;
-}
 
-
-.PS{
-  width: 100%;
-  height: 100%;
+h2{
+  color: bisque;
   /* Center vertically and horizontally */
-  position: absolute;
-  top: 50%;
-  left: 0%;
-  /* margin: -25px 0 0 -25px; */
+  position: relative;
+  text-align: center;
+  font-size: small;
+  margin-bottom: 10px;
+
+}
+
+h3{
+  color: bisque;
+  /* Center vertically and horizontally */
+  position: relative;
+  text-align: center;
+  font-size: small;
+  margin-bottom: 10px;
+  background-color: #16ff16;
+  font-weight: bold;
 }
 
 p{
   color: bisque;
   /* Center vertically and horizontally */
   position: relative;
-  left: 0%;
-  top: 50%;
-  /* margin: -25px 0 0 -25px; */
+  text-align: left;
+  font-size: small;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+li{
+  color: bisque;
+  /* Center vertically and horizontally */
+  position: relative;
+  text-align: left;
+  font-size: small;
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
+
+.container {
+  position: relative;
+  font-family: arial;
+  font-size: 24px;
+  width: 100%;
+  height: 100%;
+}
+
+
+.PS{
+  position: relative;
+  height: 500px;
+}
+
+.completion-message{
+  color: bisque;
+  position: relative;
   text-align: center;
   font-size: small;
   font-weight: bold;
-  margin-bottom: 150px;
+}
+
+.conclude-message{
+  color: bisque;
+  position: relative;
+  text-align: center;
+  font-size: small;
+  font-weight: bold;
+}
+
+.end-section{
+  position: relative;
+  text-align: center;
+  font-size: small;
+  font-weight: bold;
+  margin-top: 50px;
 }
